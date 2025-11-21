@@ -1,55 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiros Socorros - Informações Importantes</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Primeiros Socorros - Início</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <h1>Primeiros Socorros</h1>
-        <p>Aprenda como agir em situações de emergência e salve vidas!</p>
-    </header>
 
-    <nav>
-        <a href="#oque-e">O que são</a>
-        <a href="#importancia">Importância</a>
-        <a href="#acoes">Ações rápidas</a>
-        <a href="#contato">Contato</a>
-    </nav>
+  <!-- BOTÃO FIXO EMERGÊNCIA -->
+  <a href="tel:192" class="botao-emergencia" aria-label="Ligar 192">📞 192</a>
 
-    <main>
-        <section id="oque-e">
-            <h2>O que são Primeiros Socorros?</h2>
-            <p>São procedimentos iniciais aplicados em uma vítima de acidente ou mal súbito antes da chegada do socorro especializado. O objetivo é preservar a vida e evitar o agravamento da situação.</p>
-        </section>
+  <!-- CABEÇALHO -->
+  <header class="site-header">
+    <img src="https://img.freepik.com/fotos-premium/ilustracao-do-simbolo-da-cruz-vermelha_235490-169.jpg"
+         alt="Cruz Vermelha" class="logo-cruz">
 
-        <section id="importancia">
-            <h2>Por que é importante?</h2>
-            <ul>
-                <li>Evita complicações graves até a chegada do atendimento médico.</li>
-                <li>Ajuda a salvar vidas em situações críticas.</li>
-                <li>Garante segurança e tranquilidade em ambientes públicos e domésticos.</li>
-            </ul>
-        </section>
+    <div class="header-text">
+      <h1>Primeiros Socorros ao Alcance de Todos</h1>
+      <p>Conhecimento que salva vidas — seja a diferença na hora certa.</p>
+    </div>
+  </header>
 
-        <section id="acoes">
-            <h2>Ações rápidas em emergências</h2>
-            <ul>
-                <li>Mantenha a calma e avalie a segurança do local.</li>
-                <li>Chame ajuda profissional (ligue 192 - SAMU).</li>
-                <li>Não mova a vítima em casos de fratura aparente.</li>
-                <li>Em casos de sangramento, faça compressão direta no ferimento.</li>
-                <li>Se houver parada cardiorrespiratória, inicie compressões torácicas.</li>
-            </ul>
-        </section>
-    </main>
+  <!-- MENU -->
+  <nav class="main-nav">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+    <a href="instrucoes.html">Instruções</a>
+  </nav>
 
-    <footer id="contato">
-        <p>Site educativo desenvolvido para conscientização sobre primeiros socorros.</p>
-        <p>Feito com 💚 por <a href="#">sua equipe</a>.</p>
-    </footer>
+  <main class="container">
+
+    <!-- INTRODUÇÃO -->
+    <section class="intro">
+      <h2>O que são Primeiros Socorros?</h2>
+      <p>
+        Primeiros socorros são ações rápidas e simples que qualquer pessoa pode realizar para ajudar uma vítima de acidente ou mal súbito.
+        Mesmo pequenos gestos como manter a calma, chamar ajuda ou controlar um sangramento podem salvar vidas.
+        <br><br>
+        Antes que o socorro profissional chegue, a forma como você age pode impedir complicações, reduzir sequelas e até evitar uma tragédia.
+        <br><br>
+        Saber primeiros socorros não é apenas conhecimento técnico:
+        é cuidado, responsabilidade e prontidão para ajudar.
+      </p>
+    </section>
+
+    <!-- CARDS DE INFORMAÇÕES -->
+    <section class="cards-row">
+      
+      <article class="card highlight">
+        <h3>Por que é importante?</h3>
+        <ul>
+          <p>Saber prestar primeiros socorros pode transformar um simples espectador em alguém capaz de salvar vidas.
+          Permite oferecer os primeiros cuidados vitais enquanto o atendimento profissional se desloca até o local.</p>
+
+          <li>Evita agravamentos como sangramentos, queimaduras profundas ou perda de consciência.</li>
+          <li>Reduz danos permanentes, como sequelas neurológicas em paradas cardíacas.</li>
+          <li>Oferece apoio emocional e segurança à vítima.</li>
+          <li>Contribui para ambientes mais seguros em casa, trabalho e locais públicos.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Ações rápidas</h3>
+        <ul>
+          <li>Avalie o ambiente e verifique riscos (fogo, fios, veículos, objetos perigosos).</li>
+          <li>Acione o socorro (192) informando endereço e tipo de emergência.</li>
+          <li>Controle sangramentos com compressão direta e firme.</li>
+          <li>Evite movimentar vítimas com suspeita de fratura na coluna.</li>
+        </ul>
+      </article>
+
+    </section>
+
+  </main>
+
+  <!-- RODAPÉ PROFISSIONAL -->
+  <footer class="site-footer">
+
+    <div class="footer-content">
+
+      <div class="footer-section">
+        <h4>Primeiros Socorros</h4>
+        <p>Informação acessível e confiável para ajudar você a agir com segurança em situações de emergência.</p>
+      </div>
+
+      <div class="footer-section">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="instrucoes.html">Instruções</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Emergência</h4>
+        <p>
+          📞 SAMU: <strong>192</strong><br>
+          🚓 Polícia: <strong>190</strong><br>
+          🚒 Bombeiros: <strong>193</strong>
+        </p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2025 • Site educativo de Primeiros Socorros • Desenvolvido com ❤️ para salvar vidas.</p>
+    </div>
+
+  </footer>
+
 </body>
 </html>

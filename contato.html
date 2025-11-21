@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contato - Primeiros Socorros</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <img src="https://img.freepik.com/fotos-premium/ilustracao-do-simbolo-da-cruz-vermelha_235490-169.jpg"
+         alt="Cruz Vermelha" class="logo-cruz">
+    <div class="header-text">
+      <h1>Contato</h1>
+      <p>Fale conosco para sugestões ou dúvidas.</p>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <a href="index.html">Início</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+    <a href="instrucoes.html">Instruções</a>
+  </nav>
+
+  <main class="container">
+    <section>
+      <h2>Formulário de contato</h2>
+      <form id="formContato">
+        <label for="nome">Nome</label>
+        <input id="nome" name="nome" type="text" required>
+
+        <label for="email">E-mail</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="mensagem">Mensagem</label>
+        <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+        <button type="submit" class="btn-primary">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p>Site educativo para conscientização sobre primeiros socorros.</p>
+    </div>
+    <a href="index.html" class="voltar-topo">← Voltar</a>
+  </footer>
+
+  <script>
+    // Simulação de envio
+    document.getElementById('formContato').addEventListener('submit', function(e){
+      e.preventDefault();
+      alert('Mensagem enviada! Obrigado pela participação.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
